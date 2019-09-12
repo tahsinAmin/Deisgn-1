@@ -1,0 +1,176 @@
+*{
+  box-sizing: border-box;
+}
+  html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+  background-color: rgb(219,226,236);
+}
+
+.gray{
+  padding: 40px;
+}
+
+.grid{
+  margin-top: 50px;
+  display: grid;
+  grid-template-areas: "part part part" ;
+  grid-gap: 20px;
+}
+
+.part{
+  height: 533px;
+  width: 353px;
+  /* border: 1px solid black; */
+  box-shadow: 16px 8px 16px rgba(0,0,0,0.2);
+  background-color: #fafafa;
+}
+
+.back{
+  height: 500px;
+  width: 353px;
+  display: block;
+  word-wrap: break-word;
+}
+
+#one{
+  background-image: url('photo.jpg');
+  background-repeat: no-repeat;
+}
+
+.short-text{
+  color: white;
+  position: relative;
+  top: 220px;
+  left: 30px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.big-text{
+  margin: 0;
+  color: white;
+  position: relative;
+  top: 230px;
+  left: 30px;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-weight: bold;
+  width: 160px;
+}
+
+.message{
+  font-weight: bold;
+  padding: 10px 10px  2px 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.balls{
+  display: grid;
+  grid-template-areas: "ball ball ball ball" ;
+  grid-gap: 2px;
+  width: 20px;
+}
+
+.ball{
+  border-radius: 50%;
+  background: #80808033;
+  width: 8px;
+  height: 8px;
+}
+
+.move1{
+  position: relative;
+  top: -5px;
+}
+
+/* 2nd block */
+
+#two{
+  line-height: 1.5;
+  font-size: 15px;
+  letter-spacing: 1px;
+  position: relative;
+}
+.inner-two{
+    padding: 20px;
+    color: gray;
+}
+
+#second{
+  position: relative;
+  bottom: -60px;
+}
+
+#two p:nth-child(2){
+  margin-top: -13px;
+}
+
+.box {
+  float: left;
+  margin-right: 3px;
+  width: 35px;
+  height: 79px;
+  font-size: 67px;
+  padding: 0;
+  color: black;
+}
+
+/* Three */
+
+.comments-number{
+  height: 40px;
+  background-color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2.5;
+}
+
+.comments-container{
+  background-color: #fafafa;
+  height: 491px;
+  width: 351px;
+  padding: 25px;
+}
+
+.image{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: black;
+  float: left;
+  background-size: cover;
+  background-position: center; 
+}
+
+span.first{
+  margin-left: 20px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+span.second::after{
+  content: "\2022";
+  color: grey;
+}
+
+span.ash{
+  margin-left: 5px;
+  color: #80808099;
+  font-weight: lighter;
+}
+
+.person p{
+  margin-left: 70px;
+  font-size: 14px;
+  color: gray;
+  line-height: 1.1;
+  letter-spacing: 1px;
+}
+
+#zero{  background-image: url(1a.png); }
+#i3{  background-image: url(2.png); }
+#three{  background-image: url(3.png); }
+#four{  background-image: url(4.png); }
